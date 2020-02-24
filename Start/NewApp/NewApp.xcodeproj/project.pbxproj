@@ -6,20 +6,8 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		5F517C96240467C5005C8E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F517C95240467C5005C8E85 /* AppDelegate.swift */; };
-		5F517C98240467C5005C8E85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F517C97240467C5005C8E85 /* SceneDelegate.swift */; };
-		5F517CA2240467CB005C8E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F517CA0240467CB005C8E85 /* LaunchScreen.storyboard */; };
-		5F517CAA24046BA5005C8E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F517CA924046BA4005C8E85 /* Assets.xcassets */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		5F517C92240467C5005C8E85 /* FirstThingsFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstThingsFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F517C95240467C5005C8E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F517C97240467C5005C8E85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F517CA1240467CB005C8E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5F517CA3240467CB005C8E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F517CA924046BA4005C8E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F517C92240467C5005C8E85 /* NewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +24,7 @@
 		5F517C89240467C5005C8E85 = {
 			isa = PBXGroup;
 			children = (
-				5F517C94240467C5005C8E85 /* FirstThingsFirst */,
+				5F517C94240467C5005C8E85 /* NewApp */,
 				5F517C93240467C5005C8E85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,29 +32,24 @@
 		5F517C93240467C5005C8E85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F517C92240467C5005C8E85 /* FirstThingsFirst.app */,
+				5F517C92240467C5005C8E85 /* NewApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5F517C94240467C5005C8E85 /* FirstThingsFirst */ = {
+		5F517C94240467C5005C8E85 /* NewApp */ = {
 			isa = PBXGroup;
 			children = (
-				5F517CA3240467CB005C8E85 /* Info.plist */,
-				5F517CA0240467CB005C8E85 /* LaunchScreen.storyboard */,
-				5F517C95240467C5005C8E85 /* AppDelegate.swift */,
-				5F517C97240467C5005C8E85 /* SceneDelegate.swift */,
-				5F517CA924046BA4005C8E85 /* Assets.xcassets */,
 			);
-			path = FirstThingsFirst;
+			path = NewApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F517C91240467C5005C8E85 /* FirstThingsFirst */ = {
+		5F517C91240467C5005C8E85 /* NewApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F517CA6240467CB005C8E85 /* Build configuration list for PBXNativeTarget "FirstThingsFirst" */;
+			buildConfigurationList = 5F517CA6240467CB005C8E85 /* Build configuration list for PBXNativeTarget "NewApp" */;
 			buildPhases = (
 				5F517C8E240467C5005C8E85 /* Sources */,
 				5F517C8F240467C5005C8E85 /* Frameworks */,
@@ -76,9 +59,9 @@
 			);
 			dependencies = (
 			);
-			name = FirstThingsFirst;
+			name = NewApp;
 			productName = FirstThingsFirst;
-			productReference = 5F517C92240467C5005C8E85 /* FirstThingsFirst.app */;
+			productReference = 5F517C92240467C5005C8E85 /* NewApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +79,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5F517C8D240467C5005C8E85 /* Build configuration list for PBXProject "FirstThingsFirst" */;
+			buildConfigurationList = 5F517C8D240467C5005C8E85 /* Build configuration list for PBXProject "NewApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +92,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F517C91240467C5005C8E85 /* FirstThingsFirst */,
+				5F517C91240467C5005C8E85 /* NewApp */,
 			);
 		};
 /* End PBXProject section */
@@ -119,8 +102,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F517CAA24046BA5005C8E85 /* Assets.xcassets in Resources */,
-				5F517CA2240467CB005C8E85 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,23 +112,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F517C96240467C5005C8E85 /* AppDelegate.swift in Sources */,
-				5F517C98240467C5005C8E85 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5F517CA0240467CB005C8E85 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F517CA1240467CB005C8E85 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5F517CA4240467CB005C8E85 /* Debug */ = {
@@ -270,7 +238,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9VZ2GX6WB6;
-				INFOPLIST_FILE = FirstThingsFirst/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NewApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,7 +256,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9VZ2GX6WB6;
-				INFOPLIST_FILE = FirstThingsFirst/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NewApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,7 +271,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F517C8D240467C5005C8E85 /* Build configuration list for PBXProject "FirstThingsFirst" */ = {
+		5F517C8D240467C5005C8E85 /* Build configuration list for PBXProject "NewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F517CA4240467CB005C8E85 /* Debug */,
@@ -312,7 +280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F517CA6240467CB005C8E85 /* Build configuration list for PBXNativeTarget "FirstThingsFirst" */ = {
+		5F517CA6240467CB005C8E85 /* Build configuration list for PBXNativeTarget "NewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F517CA7240467CB005C8E85 /* Debug */,
